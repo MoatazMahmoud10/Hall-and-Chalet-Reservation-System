@@ -10,7 +10,6 @@ import 'package:flutter/material.dart';
 import 'screens/Chalet_screen_details.dart';
 import 'screens/Chalets_screen.dart';
 import 'screens/first.dart';
-import 'screens/payment.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -41,7 +40,6 @@ class MyApp extends StatelessWidget {
           '/CategroyScreen': (context) => const CategroyScreen(),
           '/history': (context) => const HistoryScreen(),
           '/booking': (context) => const BookingScreen(),
-          '/open': (context) => const Payment(),
         });
   }
 }
