@@ -138,7 +138,7 @@ const Chalets_data=[
     image: "assets/Stella di mare makadi bay.jpeg",
     ),
     Chalet(
-    id: "m13",
+    id: "m14",
    categories:[
     "c3"
    ], 
