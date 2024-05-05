@@ -12,7 +12,7 @@ class CategroyScreen extends StatelessWidget {
         actions:[
           IconButton(
             onPressed:(){
-           Navigator.of(context).pushNamed('/First');
+           Navigator.of(context).pushReplacementNamed('/First');
             },
            icon:Icon(Icons.logout,color:Colors.white),
           )
